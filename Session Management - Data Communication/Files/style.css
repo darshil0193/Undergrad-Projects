@@ -1,0 +1,27 @@
+body{ 
+		background:#222;
+        color:#FFF;
+		margin:10px;
+}
+
+#fancy_box {
+				width:700px;
+				height:350px;
+				background:#FFF;
+				color:#333;
+				position:absolute;
+				border-radius:5px;
+				padding:2px;
+				display:none;
+				box-shadow:0 0 5px rgba(0,0,0,10);
+}
+
+#cover{
+	 	top :0;
+		left:0;
+		display:none;
+	 	background:#fff;
+	 	opacity:0.8;
+	 	position:absolute;
+}
+

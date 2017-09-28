@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/s/Nirma/MFC_PROJECT/source, header and resource files/header.h
+
+/cygdrive/s/Nirma/MFC_PROJECT/source, header and resource files/resource.h
+
+/cygdrive/s/Nirma/MFC_PROJECT/source, header and resource files/source.cpp
+afxwin.h
+-
+resource.h
+/cygdrive/s/Nirma/MFC_PROJECT/source, header and resource files/resource.h
+header.h
+/cygdrive/s/Nirma/MFC_PROJECT/source, header and resource files/header.h
+

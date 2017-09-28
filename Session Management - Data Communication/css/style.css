@@ -1,0 +1,258 @@
+<!-- StyleSheet containing all the required values of parameters required to be used in the code for index.php/admin.php and Recieve.php -->
+
+#back {
+		background:#ccc;
+}
+body{ 
+		background:#FFF;
+        color:#FFF;
+		margin:10px;
+		font-family:Verdana, Geneva, sans-serif;
+	
+}
+
+#fancy_box {
+				width:700px;
+				height:330px;
+				background:#FFF;
+				color:#333;
+				position:absolute;
+				
+				padding:2px;
+				display:none;
+				box-shadow:0 0 5px rgba(0,0,0,10);
+				padding:12px;
+}
+
+#cover{
+	 	top :0;
+		left:0;
+		bottom:0;
+		height:100%;
+		display:none;
+	 	background:#222;
+	 	opacity:0.8;
+	 	position:absolute;
+}
+
+#Header { 
+			text-align:center;
+		    font-family:Arial, Helvetica, sans-serif;
+}
+		
+#form { font-family:Verdana, Geneva, sans-serif;
+		font-size: 12px;
+}
+
+#login_button {
+				margin-left:140px;
+				margin-top:300px;
+				font-size:34px;
+				font-family:verdana;
+				width:200px;
+				background:#03F;
+				height:40px;
+				padding:5px;
+				text-align:center;
+				
+}
+
+#image_box{
+	position:absolute;
+	width:480px;
+	background:#CCC;
+	margin-left:219px;
+	height: 290px;
+	margin-top:-170px;
+	
+}
+
+#phpout{
+		/*background:#222;*/
+		height:100%;
+		width:100%;
+		color:#fff;
+		
+}
+
+#text{	position:absolute;
+		width:200px;
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:10px;
+	}
+
+#close{
+		
+		position:absolute;
+		margin-top:-107px;
+		margin-left:-3px;
+		color:#222;
+		border-style:solid;
+		border:1px;
+		border-color:#333;
+		
+		
+		
+	}
+	
+#header{
+		background:#000;
+		height:20px;
+		width:100%;
+		position: fixed;
+		top:0px;
+		left:0px;
+		bottom: 0px; 
+ 		right:0;
+		overflow:hidden;
+		color:#fff;
+		text-align:center;
+		font-size:10px;
+		padding-top:5px;
+}
+
+#footer {
+		
+		position: fixed;
+		left:0px;
+		bottom: 0px; 
+		right:0;
+		width: 100%; 
+		height: 20px;
+		overflow: hidden; 
+		background: #000;
+		color:#FFF;
+		font-size:10px;
+		text-align:center;
+		padding-top:5px;
+	}
+
+.close{
+		margin-top:-107px;
+		margin-left:19px;
+	}
+
+#admin_login{
+				color:#222;
+				font-size:12px;
+				background:#CCC;
+				width:250px;
+				height:90px;
+				padding:30px;
+				position:absolute;
+				margin-left:-50px;
+				box-shadow:0 0 5px rgba(51,51,51,1);
+				display:none;
+					
+}
+
+#admin_close {
+			margin-top:-120px;
+			margin-left:-24px;
+			width:50px;
+			opacity:0.2;
+							
+}
+#admin_close:hover {
+			margin-top:-120px;
+			margin-left:-22px;
+			width:50px;
+			opacity:1;
+			
+							
+}
+
+#info {
+		color:#009;
+		width:100px;
+		
+}
+
+.adminsession {
+		position:absolute;
+		
+		margin-top:130px;
+		background:#FFF;
+		color:#000;
+		border-style:solid;
+		border-color:#000;
+		width:500px;
+		height:300px;
+		overflow-y:scroll;
+		display:none;
+}
+
+#file
+{
+		margin-left:20px;
+}
+
+#button_close {
+				position:absolute;
+				margin-left:575px;
+				margin-top:450px;
+				display:none;
+}
+
+#view{
+		position:absolute;
+		background:#030;
+		margin-top:40px;
+		width:200px;
+		font-size:10px;
+		padding:5px;
+		text-align:center;
+		height:15px;
+		
+		
+	}
+
+#bgone {
+		margin-top:-338px;
+		margin-left:510px;
+		height:580px;
+	
+}
+
+.adminpass
+{
+		position:absolute;
+		background:#030;
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:10px;
+		color:#FFF;
+		padding:5px;
+		height:15px;
+		margin-top:40px;
+		margin-left:230px;
+		width:350px;
+		text-align:center;
+}
+
+#changepass {
+			font-size:10px;
+			color:#000;
+			background:#CCC;
+			width:250px;
+			padding:8px;
+			position:absolute;
+			margin-top:75px;
+			margin-left:275px;
+			box-shadow:0 0 2px rgba(51,51,51,1);
+			display:none;
+}
+
+.changepass
+{
+		margin-left:35px;
+}
+
+#change
+{
+opacity:0.5;
+}
+
+#change:hover
+{
+opacity:1;
+}

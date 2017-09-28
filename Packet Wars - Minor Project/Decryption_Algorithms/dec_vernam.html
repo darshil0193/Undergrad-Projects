@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Encryption - Vernam</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<script type="text/javascript">
+
+	function encrypt()
+	{
+		var pt=document.getElementById("plaintext");//.value.toLowerCase();
+		var ct=document.getElementById("ciphertext");//.value.toLowerCase();
+		var key=document.getElementById("key");
+		if((!ct.value.length) || (key==0))
+		{
+			if(!key.value.length)
+			{
+				alert("Key cannot be empty");
+				return false;
+			}
+			else
+			{
+				alert("Enter the Plaintext");
+				return false;
+			}
+		}
+		if(!pt.value.length)			//ciphertext is given
+		{
+			for(i=0;i<ct.value.length;i++)
+			{
+				pt.value = pt.value + String.fromCharCode(ct.value.charCodeAt(i) ^ key.value.charCodeAt(i));
+			}
+		return false;
+		}
+	}
+
+</script>
+
+
+</head>
+<body>
+	<h1>Decryption Algorithms</h1>
+    <div class="definition">
+    <dl>
+    	<dt class=title>Vernam Cipher:</dt>
+        <ul type="disc"><li>It is a symmetric stream cipher.</li><li>In this method, each character of plaintext is logically XORed with the key.</li><li>If the key is smaller in length than the plaintext, it is repeated again.</li><li>If the key is longer than the plaintext, the extra bits are discarded.</li></ul>
+    </dl>
+    </div>
+   	<form id="input" onSubmit=" return encrypt()">
+    <table>
+    	<tr>
+        	<td>Paintext: </td>
+            <td><input class="typetext" id="plaintext" type="text" maxlength="50" size="75"/ disabled></td>
+        </tr>
+        <tr>
+            <td>Key: </td>
+            <td><input class="typetext" id="key" type="text" maxlength="50" size="75"/></td>
+        </tr>
+        <tr>
+        	<td>Ciphertext: </td>
+            <td><input class="typetext" id="ciphertext" type="text" maxlength="50" size="75"/></td>
+        </tr>
+        <tr>
+        	<td><input type="submit" value="Encrypt" class="button"></td>
+        </tr>
+    </table>
+    </form>
+    
+    <a href="dec_vernam.html"><img src="../images/next.png" class="next"></a>
+    <a href="../index.html"><img src="../images/home-icon.png" class="home"></a>
+    <a href="dec_caesar.html"><img src="../images/back.png" class="back"></a>
+    
+</body>
+</html>
